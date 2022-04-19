@@ -6,37 +6,46 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
-<header class="text-white" style="background-color: darkmagenta">
-    <div class="d-flex justify-content-between">
-        <h1 class="p-2">Lifeline Inc.</h1>
-        <nav class="navbar">
-            <ul class="d-flex list-unstyled">
-                <li class="nav-item"><a class="nav-link text-white" href="index.html" style="font-size: 26px; padding-bottom: 0; margin-bottom: 0">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#" style="font-size: 26px; padding-bottom: 0; margin-bottom: 0">Store</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<main>
-    <div class="container-fluid" style="width: 95%">
-        <article style="font-size: 35px; font-weight: bolder">
-            <p>We provide CARE packages for you or anyone you know
-                who's in an unfortunate situation!</p>
-        </article>
+<body style="display: flex; min-height: 100vh; flex-direction: column;">
+    <header class="text-white" style="background-color: #8b008b">
+        <div class="d-flex justify-content-between">
+            <h1 class="p-2">Lifeline</h1>
+            <nav class="navbar">
+                <ul class="d-flex list-unstyled">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html" style="font-size: 26px; padding-bottom: 0; margin-bottom: 0">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#" style="font-size: 26px; padding-bottom: 0; margin-bottom: 0">Store</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main style="flex: 1;">
+        <div class="container-fluid" style="width: 95%">
+            <article style="font-size: 35px; font-weight: bolder">
+                <p>We will provide carepackages to the comfort of your home!</p>
+            </article>
 
-        <article><h2>Our customers</h2>
-            <p>Many people these days aren't comfortable or even capable of leaving the
-            house and shopping. Not only that, but many are also living in poverty, or are refugees
-            from war-torn countries and struggling to make ends meet. It's for those people (or, more accurately, those
-            who care about them) that Lifeline Inc. provides. For a price.</p>
-        </article>
-
-    </div>
-</main>
-<footer>
-    <p>&copy;Lifeline Inc. 2022</p>
-</footer>
+            <div class="d-flex">
+                <div style="width: 60%">
+                    <article ><h2>Our customers</h2>
+                        <p>Many people these days aren't comfortable or even capable of leaving the
+                            house and shopping. Not only that, but many are also living in poverty, or are refugees
+                            from war-torn countries and struggling to make ends meet. It's for those people (or, more
+                            accurately, those
+                            who care about them) that Lifeline Inc. provides for a price.</p>
+                    </article>
+                    <div>
+                        <article><h2>Some example of packages</h2>
+                            [examples...]
+                        </article>
+                    </div>
+                </div>
+                <img style="width: 400px; padding-left: 5rem" src="images/Naamloos.png" alt="Kartonnen doos">
+            </div>
+        </div>
+    </main>
+    <footer class="text-white" style="background-color: #8b008b">
+        <p>&copy;Lifeline Inc. 2022</p>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

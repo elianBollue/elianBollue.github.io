@@ -1,3 +1,4 @@
 .nav-item:hover{
-    background: red;
+    transform: scale(1.1);
+    background: #640064;
 }
